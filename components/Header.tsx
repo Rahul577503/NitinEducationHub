@@ -74,7 +74,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="cursor-pointer capitalize py-2 text-xl text-white hover:text-amber-500">
-            <Link onClick={() => setNav(!nav)} href="/practices">
+            <Link onClick={() => setNav(!nav)} href="/practice">
               Practice
             </Link>
           </li>
