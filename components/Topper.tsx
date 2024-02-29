@@ -45,7 +45,6 @@ const Topper = () => {
                 alt="collage photos"
                 height={200}
                 width={800}
-                objectFit="cover"
               />
             </div>
 

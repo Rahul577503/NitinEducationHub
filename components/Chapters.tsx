@@ -1,4 +1,3 @@
-// components/Chapter.tsx
 import { FaAngleDown, FaAngleUp } from 'react-icons/fa';
 import { useState } from 'react';
 import { physicsSubjects } from '@/constants/physics';
