@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { IconType } from "react-icons";
 import { FiBook, FiPieChart, FiCode } from "react-icons/fi";
 import { FaFlask } from "react-icons/fa6";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 
 interface CardProps {

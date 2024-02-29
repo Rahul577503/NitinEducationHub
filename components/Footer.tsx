@@ -1,4 +1,5 @@
 import Social from "./Socials";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -21,6 +22,8 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} AviaBookingOnline. All rights
           reserved.
         </p>
+        <p className="text-sm">Developed with ❤️ by <Link href="https://github.com/Rahul577503" className="text-blue-500 cursor-pointer hover:text-blue-300">Rahul</Link></p>
+
       </div>
     </footer>
   );
