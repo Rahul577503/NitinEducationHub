@@ -56,30 +56,29 @@ const MathImage =
 const ComputerImage =
   "https://img.freepik.com/free-photo/person-playing-3d-video-games-device_23-2151005751.jpg?size=626&ext=jpg&ga=GA1.1.706000927.1707051425&semt=sph";
 
-const CardList: React.FC = () => {
-  const [showAllCards, setShowAllCards] = useState(false);
-  const cards = [
-    { title: "Physics", icon: PhysicsIcon, image: physicsImage, link: "/practices/modern_physics" },
-    { title: "Chemistry", icon: ChemistryIcon, image: ChemistryImage, link: "/practices/chemistry" },
-    { title: "Math", icon: MathIcon, image: MathImage, link: "/practices/mathmatics" },
-    { title: "Computer Science", icon: ComputerIcon, image: ComputerImage, link: "/computer-science" },
-    { title: "Computer Science", icon: ComputerIcon, image: ComputerImage, link: "/computer-science" },
-    { title: "Computer Science", icon: ComputerIcon, image: ComputerImage, link: "/computer-science" }
-
-
-  ];
-
-  const displayedCards = showAllCards ? cards : cards.slice(0, 4);
-
-  return (
-    <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8 p-4 justify-center">
-        {displayedCards.map((card, index) => (
-          <Card key={index} title={card.title} icon={card.icon} image={card.image} link={card.link} />
-        ))}
-      </div>
-    </>
-  );
-};
-
-export default CardList;
+  const CardList: React.FC = () => {
+    const [showAllCards, setShowAllCards] = useState(false);
+    const cards = [
+      { title: "Physics", icon: PhysicsIcon, image: physicsImage, link: "/practices/modern_physics" },
+      { title: "Chemistry", icon: ChemistryIcon, image: ChemistryImage, link: "/practices/chemistry" },
+      { title: "Math", icon: MathIcon, image: MathImage, link: "/practices/mathmatics" },
+      { title: "Computer Science", icon: ComputerIcon, image: ComputerImage, link: "/computer-science" },
+      { title: "Computer Science", icon: ComputerIcon, image: ComputerImage, link: "/computer-science" },
+      { title: "Computer Science", icon: ComputerIcon, image: ComputerImage, link: "/computer-science" }
+    ];
+  
+    const displayedCards = showAllCards ? cards : cards.slice(0, 4);
+  
+    return (
+      <>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8 p-4 place-items-center">
+          {displayedCards.map((card, index) => (
+            <Card key={index} title={card.title} icon={card.icon} image={card.image} link={card.link} />
+          ))}
+        </div>
+      </>
+    );
+  };
+  
+  export default CardList;
+  
