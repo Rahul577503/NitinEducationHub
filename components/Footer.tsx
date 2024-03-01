@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col items-center justify-center space-y-4 md:flex-row md:justify-between md:items-center">
         <div className="text-center">
           <h2 className="text-lg font-semibold mb-2">Contact Us</h2>
-          <p>Email: example@example.com</p>
+          <p>Email: nitinmaurya1010@gmail.com</p>
           <p>Phone: 123-456-7890</p>
         </div>
 
@@ -18,8 +18,8 @@ const Footer = () => {
       </div>
 
       <div className="text-center mt-8">
-        <p>
-          &copy; {new Date().getFullYear()} AviaBookingOnline. All rights
+        <p className="text-sm">
+          &copy; {new Date().getFullYear()} Nitin Maurya. All rights
           reserved.
         </p>
         <p className="text-sm">Developed with ❤️ by <Link href="https://github.com/Rahul577503" className="text-blue-500 cursor-pointer hover:text-blue-300">Rahul</Link></p>

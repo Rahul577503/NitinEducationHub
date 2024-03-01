@@ -7,7 +7,6 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 
 import Layout from "@/components/Layout/Layout";
-const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
 
 const capriola = Capriola({
   subsets: ["latin"],
@@ -25,25 +24,34 @@ export const metadata: Metadata = {
 
   title: {
     template: "%s | Nitin Maurya",
-    default: "Nitin Maurya ",
+    default: "Nitin Maurya",
   },
   authors: {
     name: "Nitin Maurya",
   },
 
   description:
-    "I'm Nitin, a versatile full-stack developer, weaving digital wonders from both frontend and backend realms. Embracing innovation, I craft captivating online experiences with precision and passion.",
+    "Nitin Maurya is a Computer Teacher and Basic Computer Instructor (Teacher) at the Education Department Rajasthan. He is a versatile full-stack developer, weaving digital wonders from both frontend and backend realms. Embracing innovation, he crafts captivating online experiences with precision and passion.",
   openGraph: {
-    title: "Nitin Maurya ",
+    title: "Nitin Maurya",
     description:
-      "I'm Nitin, a versatile full-stack developer, weaving digital wonders from both frontend and backend realms. Embracing innovation, I craft captivating online experiences with precision and passion.",
+      "Nitin Maurya is a Computer Teacher and Basic Computer Instructor (Teacher) at the Education Department Rajasthan. He is a versatile full-stack developer, weaving digital wonders from both frontend and backend realms. Embracing innovation, he crafts captivating online experiences with precision and passion.",
     url: "https://nitinmaurya.vercel.app/",
-    siteName: "Nitin Maurya ",
+    siteName: "Nitin Maurya",
     images: "/og.png",
     type: "website",
   },
-  keywords: ["Nitin Maurya Computer", "Nitin Maurya Pratapgarh", "nitinmaurya.vercel.app", "Nitin Maurya"],
-};
+  keywords: [
+    "Nitin Maurya Computer",
+    "Nitin Maurya Pratapgarh",
+    "nitinmaurya.vercel.app",
+    "Nitin Maurya",
+    "Computer Teacher",
+    "Basic Computer Instructor",
+    "Education Department Rajasthan",
+  ],
+};  
+
 
 export default function RootLayout({
   children,
