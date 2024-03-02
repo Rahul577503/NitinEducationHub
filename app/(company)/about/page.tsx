@@ -1,3 +1,4 @@
+'use client'
 /* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
 import Image from "next/legacy/image";
@@ -15,8 +16,6 @@ const AboutPage = () => {
           <Image
             src={ProfileImage}
             alt="Profile"
-            height={144}
-            width={144}
             className="rounded-full"
           />
         </div>
