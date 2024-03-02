@@ -80,19 +80,7 @@ const CardList: React.FC = () => {
       title: "Computer Science",
       icon: ComputerIcon,
       image: ComputerImage,
-      link: "/computer-science",
-    },
-    {
-      title: "Computer Science",
-      icon: ComputerIcon,
-      image: ComputerImage,
-      link: "/computer-science",
-    },
-    {
-      title: "Computer Science",
-      icon: ComputerIcon,
-      image: ComputerImage,
-      link: "/computer-science",
+      link: "/practices/computer",
     },
   ];
 
