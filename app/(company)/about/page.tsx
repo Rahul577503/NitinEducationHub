@@ -34,7 +34,7 @@ const AboutPage = () => {
         <div className="mt-8">
           <ContactUs />
         </div>
-      b</div>
+      </div>
     </div>
   );
 };
