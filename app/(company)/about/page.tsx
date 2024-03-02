@@ -7,8 +7,9 @@ import ProfileImage from "@/public/ProfileImage.svg";
 
 const AboutPage = () => {
   return (
-    <div className="min-h-screen py-[150px] flex flex-col justify-center items-center px-4 lg:p-0 bg-gray-100">
-      <div className="max-w-3xl py-10 text-center">
+    <div className="min-h-screen py-[150px] flex flex-col justify-center items-center px-4 lg:p-0">
+      <br/>
+      <div className="max-w-3xl  text-center">
         <Head>
           <title>About Us</title>
         </Head>
@@ -33,7 +34,7 @@ const AboutPage = () => {
         <div className="mt-8">
           <ContactUs />
         </div>
-      </div>
+      b</div>
     </div>
   );
 };
