@@ -7,18 +7,19 @@ import ProfileImage from "@/public/ProfileImage.svg";
 
 const AboutPage = () => {
   return (
-    <div className="min-h-screen py-[130px] flex flex-col justify-center items-center px-4 lg:p-0 bg-gray-100">
-      <div className="max-w-3xl bg-white p-8 rounded-lg shadow-md text-center">
+    <div className="min-h-screen py-[150px] flex flex-col justify-center items-center px-4 lg:p-0 bg-gray-100">
+      <div className="max-w-3xl py-10 text-center">
         <Head>
           <title>About Us</title>
         </Head>
+        <br/>
         <div className="relative rounded-full overflow-hidden h-36 w-36 mx-auto mb-4">
           <Image
             src={ProfileImage}
             alt="Profile"
             className="rounded-full"
           />
-        </div>
+        br</div>
         <h1 className="text-3xl font-bold mb-2">Nitin Maurya</h1>
         <p className="text-gray-600 text-lg mb-4">Computer Teacher & Software Engineer</p>
         <p className="text-lg text-gray-800 mb-8">
