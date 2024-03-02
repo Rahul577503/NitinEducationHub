@@ -7,7 +7,7 @@ import ProfileImage from "@/public/ProfileImage.svg";
 
 const AboutPage = () => {
   return (
-    <div className="min-h-screen py-20 flex flex-col justify-center items-center px-4 lg:p-0 bg-gray-100">
+    <div className="min-h-screen py-[130px] flex flex-col justify-center items-center px-4 lg:p-0 bg-gray-100">
       <div className="max-w-3xl bg-white p-8 rounded-lg shadow-md text-center">
         <Head>
           <title>About Us</title>
