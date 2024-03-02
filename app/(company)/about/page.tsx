@@ -22,7 +22,7 @@ const AboutPage: React.FC = () => {
           className="rounded-full h-40 w-40  mb-4"
         />
         <h1 className="text-3xl font-bold mb-2">Nitin Maurya</h1>
-        <p className="text-gray-600 text-2xl mb-3">Computer Intructructor</p>
+        <p className="text-gray-600 text-2xl mb-3">Computer Teacher & Software Engineer</p>
         <div className="">
           <p className="text-center">
             Hey everyone, I'm Nitin Maurya, a computer teacher! 💻 Teaching
