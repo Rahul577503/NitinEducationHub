@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-"use client";
 import Head from "next/head";
 import Image from "next/legacy/image";
 import ContactUs from "@/components/Contact";
