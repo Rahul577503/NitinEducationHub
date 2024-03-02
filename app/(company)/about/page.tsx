@@ -10,20 +10,20 @@ const ProfileImage =
 
 const AboutPage: React.FC = () => {
   return (
-    <div className="min-h-screen py-[110px] flex flex-col justify-center items-center">
+    <div className="min-h-screen py-[120px] flex flex-col justify-center items-center px-4 lg:p-0">
       <div className="max-w-[800px] flex flex-col justify-center items-center ">
         <Head>
           <title>About Us</title>
         </Head>
         <Image
           src={MyImage}
-          height={350}
+          height={250}
           width={250}
           alt="Profile"
           className="rounded-full h-40 w-40  mb-4"
         />
         <h1 className="text-3xl font-bold mb-2">Nitin Maurya</h1>
-        <p className="text-gray-600 text-2xl mb-3">Computer Teacher & Software Engineer</p>
+        <p className="text-gray-600 text-2xl mb-3 text-center">Computer Teacher & Software Engineer</p>
         <div className="">
           <p className="text-center">
             Hey everyone, I'm Nitin Maurya, a computer teacher! 💻 Teaching
