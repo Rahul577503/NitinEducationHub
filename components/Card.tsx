@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { IconType } from "react-icons";
 import { FiBook, FiPieChart, FiCode } from "react-icons/fi";
 import { FaFlask } from "react-icons/fa6";
@@ -19,8 +19,8 @@ const Card: React.FC<CardProps> = ({ title, icon: Icon, image, link }) => {
         <div className="hover:shadow-lg transition duration-500 ease-in-out transform hover:scale-105">
           <Image
             className="w-full h-56 "
-            height={200}
-            width={200}
+            height={300}
+            width={300}
             src={image}
             alt={title}
           />
@@ -56,7 +56,6 @@ const ComputerImage =
   "https://img.freepik.com/free-photo/person-playing-3d-video-games-device_23-2151005751.jpg?size=626&ext=jpg&ga=GA1.1.706000927.1707051425&semt=sph";
 
 const CardList: React.FC = () => {
-  const [showAllCards, setShowAllCards] = useState(false);
   const cards = [
     {
       title: "Physics",
@@ -84,12 +83,12 @@ const CardList: React.FC = () => {
     },
   ];
 
-  const displayedCards = showAllCards ? cards : cards.slice(0, 4);
+
 
   return (
     <>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8 p-4 place-items-center">
-        {displayedCards.map((card, index) => (
+        {cards.map((card, index) => (
           <Card
             key={index}
             title={card.title}
