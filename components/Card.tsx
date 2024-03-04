@@ -18,8 +18,8 @@ const Card: React.FC<CardProps> = ({ title, icon: Icon, image, link }) => {
       <div className="overflow-hidden">
         <div className="hover:shadow-lg transition duration-500 ease-in-out transform hover:scale-105">
           <Image
-            className="w-full h-56 "
-            height={300}
+            className="w-full"
+            height={200}
             width={300}
             src={image}
             alt={title}

@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import { motion } from "framer-motion";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Image1 from "../public/Happy student-amico.svg";
 import Link from "next/link";
 
@@ -42,7 +42,7 @@ const HeroSection = () => {
             professional, or lifelong learner, we're here to support your growth
             and development. Join us and take your learning to the next level!
           </p>
-          <button className="gradient-border bg-transparent hover:bg-green-600 text-white font-bold py-2 px-4 rounded mt-4 transition duration-300">
+          <button className="gradient-border  bg-green-600  text-white font-bold py-2 px-4 rounded mt-4 transition duration-300">
             <Link href="mailto:nitinmaurya1010@gmail.com">Contact Me</Link>
           </button>
         </motion.div>
