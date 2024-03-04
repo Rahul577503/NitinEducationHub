@@ -7,7 +7,7 @@ const CollageImage =
 
 const Topper = () => {
   return (
-    <div className="flex justify-center items-center py-4">
+    <div className="flex justify-center items-center py-4 min-w-full">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="p-8 text-gray-800 flex flex-col items-center bg-green-50 justify-center">
           <div className="bg-green-500 rounded-full p-4 w-20 h-20 flex items-center justify-center mb-4">
@@ -23,7 +23,7 @@ const Topper = () => {
         </div>
 
         <div className="px-4">
-          <div className="bg-green-50 rounded-lg shadow-md border border-green-100 p-4 overflow-hidden">
+          <div className="bg-green-50 rounded-lg shadow-md border border-green-100 p-2">
             <div className="mb-4 mx-auto">
               <Image
                 src={CollageImage}
@@ -32,35 +32,36 @@ const Topper = () => {
                 width={900}
               />
             </div>
-
-            <table className="mx-auto min-w-full">
-              <tbody>
-                <tr>
-                  <td className="border px-4 py-2">Student Name</td>
-                  <td className="border px-4 py-2">Marks %</td>
-                  <td className="border px-4 py-2">Student Name</td>
-                  <td className="border px-4 py-2">Marks</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Rahul Maurya</td>
-                  <td className="border px-4 py-2">95</td>
-                  <td className="border px-4 py-2">Ujjawal Maurya</td>
-                  <td className="border px-4 py-2">87</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Sahitya Maurya</td>
-                  <td className="border px-4 py-2">87</td>
-                  <td className="border px-4 py-2">Nitesh Maurya</td>
-                  <td className="border px-4 py-2">87</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Aman Maurya</td>
-                  <td className="border px-4 py-2">87</td>
-                  <td className="border px-4 py-2"></td>
-                  <td className="border px-4 py-2"></td>
-                </tr>
-              </tbody>
-            </table>
+            <div className="mx-auto overflow-x-auto ">
+              <table className="text-sm lg:text-xl">
+                <tbody>
+                  <tr>
+                    <td className="border px-4 py-2">Student Name</td>
+                    <td className="border px-4 py-2">Marks %</td>
+                    <td className="border px-4 py-2">Student Name</td>
+                    <td className="border px-4 py-2">Marks</td>
+                  </tr>
+                  <tr>
+                    <td className="border px-4 py-2">Rahul Maurya</td>
+                    <td className="border px-4 py-2">95</td>
+                    <td className="border px-4 py-2">Ujjawal Maurya</td>
+                    <td className="border px-4 py-2">87</td>
+                  </tr>
+                  <tr>
+                    <td className="border px-4 py-2">Sahitya Maurya</td>
+                    <td className="border px-4 py-2">87</td>
+                    <td className="border px-4 py-2">Nitesh Maurya</td>
+                    <td className="border px-4 py-2">87</td>
+                  </tr>
+                  <tr>
+                    <td className="border px-4 py-2">Aman Maurya</td>
+                    <td className="border px-4 py-2">87</td>
+                    <td className="border px-4 py-2"></td>
+                    <td className="border px-4 py-2"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
