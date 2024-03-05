@@ -16,14 +16,13 @@ const Footer = () => {
           <Social textColor="white"/>
         </div>
       </div>
-
+      
       <div className="text-center mt-8">
         <p className="text-sm">
           &copy; {new Date().getFullYear()} Nitin Maurya. All rights
           reserved.
         </p>
         <p className="text-sm">Developed with ❤️ by <Link href="https://github.com/Rahul577503" className="text-blue-500 cursor-pointer hover:text-blue-300">Rahul</Link></p>
-
       </div>
     </footer>
   );
