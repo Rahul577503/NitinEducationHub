@@ -14,6 +14,7 @@
     "@emotion/styled": "^11.11.0",
     "@mdx-js/mdx": "^3.0.1",
     "@mdx-js/react": "^3.0.1",
+    "@mui/icons-material": "^5.15.11",
     "@mui/material": "^5.15.10",
     "@mui/material-nextjs": "^5.15.9",
     "@mui/types": "^7.2.13",

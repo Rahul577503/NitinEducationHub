@@ -1,10 +1,12 @@
 import { IPhysicsSubject, IChapter } from "@/interface/common";
-
+import { chemistry } from "./chemistry";
+import { mathmatics } from "./mathmatics";
+import { computers } from "./computers";
 export const physicsSubjects: IPhysicsSubject[] = [
   {
     id: 1,
     title: "Modern Physics",
-    image: "modern_physics_image_url.jpg",
+    image: "/ProfileImage.jpg",
     chapters: [
       {
         id: 1, 
@@ -68,4 +70,12 @@ export const physicsSubjects: IPhysicsSubject[] = [
       },
     ],
   },
+  // chemistry data here 
+  ...chemistry,
+  // mathmatics data
+  ...mathmatics,
+
+  // computers
+  ...computers
+ 
 ];

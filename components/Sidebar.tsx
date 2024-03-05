@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { Drawer, List, ListItem, ListItemText } from "@mui/material";
+import { Drawer, List, ListItem, ListItemText, Accordion, AccordionSummary, AccordionDetails } from "@mui/material";
 import { FaBars } from "react-icons/fa";
 import { IPhysicsSubject, IChapter } from "@/interface/common";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 interface SidebarProps {
   subjects: IPhysicsSubject[];
@@ -38,21 +39,26 @@ const Sidebar: React.FC<SidebarProps> = ({ subjects, onSelectChapter }) => {
         <List>
           {subjects.map((subject) => (
             <div key={subject.id}>
-              <ListItem>
-                <ListItemText primary={subject.title} className="text-green-900 text-2xl font-extrabold	"/>
-              </ListItem>
-              <List>
-                {subject.chapters.map((chapter) => (
-                  <ListItem
-                    key={chapter.id}
-                    button
-                    onClick={() => handleSelectChapter(chapter)}
-                    style={{ cursor: "pointer" }} 
-                  >
-                    <ListItemText primary={chapter.title} className="text-green-500 	" />
-                  </ListItem>
-                ))}
-              </List>
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                >
+                  <ListItemText primary={subject.title} className="text-green-900 text-2xl font-extrabold	"/>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <List>
+                    {subject.chapters.map((chapter) => (
+                      <ListItem
+                        key={chapter.id}
+                        onClick={() => handleSelectChapter(chapter)}
+                        style={{ cursor: "pointer" }} 
+                      >
+                        <ListItemText primary={chapter.title} className="text-green-500 	" />
+                      </ListItem>
+                    ))}
+                  </List>
+                </AccordionDetails>
+              </Accordion>
             </div>
           ))}
         </List>
