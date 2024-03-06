@@ -3,6 +3,7 @@ import { TiArrowBackOutline } from "react-icons/ti";
 
 import { IPhysicsSubject, IChapter } from "@/interface/common";
 import CardList from "./Card";
+import LearnBlogPage from "./LearnComponents";
 
 interface MainContentProps {
   selectedSubject: IPhysicsSubject | null;
@@ -20,7 +21,7 @@ const MainContent: React.FC<MainContentProps> = ({
   }
 
   return (
-    <div className=" p-4  sm:w-full md:w-full flex flex-col cursor-pointer justify-center items-center" style={{ fontFamily: 'Arial, sans-serif', lineHeight: '1.6', letterSpacing: '0.02em', color: '#333' }}>
+    <div className=" p-4  sm:w-full md:w-full flex flex-col justify-center items-center" style={{ fontFamily: 'Arial, sans-serif', lineHeight: '1.6', letterSpacing: '0.02em', color: '#333' }}>
       {selectedChapter ? (
         <>
           <div className="flex justify-center items-center mb-4">
@@ -60,8 +61,7 @@ const MainContent: React.FC<MainContentProps> = ({
         </>
       ) : (
         <div>
-          <h1 className="text-3xl font-bold text-center my-8" style={{ fontFamily: 'Helvetica, Arial, sans-serif', letterSpacing: '0.03em', marginBottom: '1rem' }}>Class 10 Physics Topics</h1>
-          <CardList/>
+          <LearnBlogPage/>
         </div>
       )}
     </div>

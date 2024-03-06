@@ -35,7 +35,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-base lg:text-lg text-gray-200 py-4 leading-relaxed text-2">
-            Welcome to [Your Website Name]! We're dedicated to providing quality
+            Welcome to NitinEduHub ! We're dedicated to providing quality
             educational resources to help you succeed in your learning journey.
             From interactive courses to informative articles, we offer a diverse
             range of content to suit your needs. Whether you're a student,
