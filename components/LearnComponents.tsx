@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Head from 'next/head';
 import { FaBook, FaFileAlt, FaLink } from 'react-icons/fa';
 import Link from 'next/link';
@@ -9,7 +10,7 @@ const LearnBlogPage = () => {
         <title>NitinEduHub - Learn Blog</title>
       </Head>
       <div className="max-w-4xl text-center">
-        <h1 className="text-4xl font-bold mb-8">Welcome to NitinEduHub Learn Blog</h1>
+        <h1 className="text-4xl font-bold mb-8">Welcome to NitinEduHub </h1>
         <p className="text-lg text-gray-800 mb-8">
           NitinEduHub is committed to providing quality education resources to students in various subjects including Physics, Chemistry, Mathematics, and Computer Science.
           We offers a wide range of services to help students excel in their studies, including access to previous question papers, model papers, study notes, and informative blogs.
@@ -68,6 +69,18 @@ const LearnBlogPage = () => {
             <li><FaFileAlt className="inline-block mr-2" />Study Notes</li>
             <li><FaLink className="inline-block mr-2" />Useful Links</li>
           </ul>
+        </div>
+        <div className="mb-8">
+          <h2 className="text-2xl font-bold mb-4">About NitinEduHub:</h2>
+          <p className="text-lg text-gray-800 mb-4">
+            NitinEduHub is a leading online education platform dedicated to providing high-quality learning resources and support to students worldwide. Our mission is to empower students to achieve academic excellence and pursue their educational goals with confidence.
+          </p>
+          <p className="text-lg text-gray-800 mb-4">
+            We understand the challenges students face in their academic journey, and our team of experienced educators and subject matter experts are committed to providing personalized assistance and guidance to help students succeed.
+          </p>
+          <p className="text-lg text-gray-800 mb-4">
+            Whether you're preparing for exams, seeking additional study materials, or looking for expert advice on complex topics, NitinEduHub has you covered. Explore our wide range of resources, participate in interactive learning activities, and join our community of learners today!
+          </p>
         </div>
         <div className="mt-8">
           <p className="text-lg">
