@@ -5,7 +5,6 @@ import "./globals.css";
 import { Poppins, Advent_Pro, Capriola, Space_Grotesk } from "next/font/google";
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
-
 import Layout from "@/components/Layout/Layout";
 
 const capriola = Capriola({
@@ -20,8 +19,7 @@ const adventPro = Advent_Pro({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nitinmaurya.vercel.app/"),
-
+  metadataBase: new URL("https://www.nitinmaurya.in/"),
   title: {
     template: "%s | Nitin Maurya",
     default: "Nitin Maurya",
@@ -36,7 +34,7 @@ export const metadata: Metadata = {
     title: "Nitin Maurya",
     description:
       "Nitin Maurya is a Computer Teacher and Basic Computer Instructor (Teacher) at the Education Department Rajasthan. He is a versatile full-stack developer, weaving digital wonders from both frontend and backend realms. Embracing innovation, he crafts captivating online experiences with precision and passion.",
-    url: "https://nitinmaurya.vercel.app/",
+    url: "www.nitinmaurya.in/",
     siteName: "Nitin Maurya",
     images: "/og.png",
     type: "website",
@@ -45,13 +43,14 @@ export const metadata: Metadata = {
     "Nitin Maurya Computer",
     "Nitin Maurya Pratapgarh",
     "nitinmaurya.vercel.app",
-    "Nitin Maurya",
+    "Nitin Maurya In",
+    "Nitin Maurya ",
     "Computer Teacher",
+    "www.nitinmaurya.in/",
     "Basic Computer Instructor",
     "Education Department Rajasthan",
   ],
-};  
-
+};
 
 export default function RootLayout({
   children,

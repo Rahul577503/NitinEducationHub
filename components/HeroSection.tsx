@@ -43,7 +43,7 @@ const HeroSection = () => {
             and development. Join us and take your learning to the next level!
           </p>
           <button className="gradient-border  bg-green-600  text-white font-bold py-2 px-4 rounded mt-4 transition duration-300">
-            <Link href="mailto:nitinmaurya1010@gmail.com">Contact Me</Link>
+            <Link href="mailto:nitinmaurya.in@gmail.com">Contact Me</Link>
           </button>
         </motion.div>
         <motion.div 

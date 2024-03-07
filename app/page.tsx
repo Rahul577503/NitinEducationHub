@@ -4,11 +4,14 @@ import CardList from "@/components/Card";
 import ContactUs from "@/components/Contact";
 import Topper from "@/components/Topper";
 import Link from "next/link";
+import MaterialCard from "@/components/MaterialCard";
+
 export default function Home() {
   return (
     <main className=" min-h-full bg-green-50  py-20 ">
       <div>
         <HeroSection />
+        <MaterialCard/>
       </div>
       <div>
         <Topper />

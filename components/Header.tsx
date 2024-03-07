@@ -40,7 +40,7 @@ const Navbar = () => {
           <button className="relative inline-flex h-12 overflow-hidden rounded-md p-[1px] focus:outline-none ">
             <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
             <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-md bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
-            <Link href="tel:18778040909">Toll Free: 1877-804-0909</Link> 
+            <Link href="tel:6386351188">Toll Free:6386-351-188</Link> 
             </span>
           </button>
         </li>
@@ -84,8 +84,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="cursor-pointer capitalize py-2 text-xl text-white hover:text-amber-500 border px-4 rounded-lg border-white">
-            <Link onClick={() => setNav(!nav)} href="tel:18778040909">
-              Toll Free: 1234-567-8900
+            <Link onClick={() => setNav(!nav)} href="tel:6386351188">
+              Toll Free: 6386-351-188
             </Link>
           </li>
         </motion.ul>
