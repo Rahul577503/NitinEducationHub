@@ -42,19 +42,19 @@ const Topper = () => {
                     <td className="border px-4 py-2">Marks</td>
                   </tr>
                   <tr>
-                    <td className="border px-4 py-2">Rahul Maurya</td>
+                    <td className="border px-4 py-2">Aman Kumar</td>
                     <td className="border px-4 py-2">95</td>
-                    <td className="border px-4 py-2">Ujjawal Maurya</td>
+                    <td className="border px-4 py-2"></td>
                     <td className="border px-4 py-2">87</td>
                   </tr>
                   <tr>
-                    <td className="border px-4 py-2">Sahitya Maurya</td>
+                    <td className="border px-4 py-2">Sahitya Prajapati</td>
                     <td className="border px-4 py-2">87</td>
-                    <td className="border px-4 py-2">Nitesh Maurya</td>
+                    <td className="border px-4 py-2">Nitesh Singh</td>
                     <td className="border px-4 py-2">87</td>
                   </tr>
                   <tr>
-                    <td className="border px-4 py-2">Aman Maurya</td>
+                    <td className="border px-4 py-2">Aman Patel</td>
                     <td className="border px-4 py-2">87</td>
                     <td className="border px-4 py-2"></td>
                     <td className="border px-4 py-2"></td>
